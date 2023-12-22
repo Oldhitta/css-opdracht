@@ -86,3 +86,14 @@ body {
   }
   /* alle kleuren voor dit vlak: #FF715B  #30332E  #62BBC1  #EC058E */
 }
+
+  body {
+    header{
+      display: flex;
+      justify-content: space-between;
+      nav a:not(.mobiel) {
+        display: none;
+        text-decoration: none;
+      }
+    }
+  }
